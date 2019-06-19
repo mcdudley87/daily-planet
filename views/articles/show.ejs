@@ -1,0 +1,17 @@
+<h1>Look at this fuckin' article.</h1>
+
+	
+	
+	<h2> <%= article.title %> </h2>
+	<p><%= article.body   %></p>
+
+<a href="/articles/<%= id %>/edit">EDIT THIS ALTERNATIVE FACT</a>
+
+<form method="POST" action="/articles/<%= id %>/?_method=DELETE"> 
+
+	<input type="submit" value="REEEEEDACTED! (delete)">
+
+
+</form> 
+
+<a href="/articles/">Back to Articles</a>
